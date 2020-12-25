@@ -1,0 +1,93 @@
+body{
+	font-family:arial;
+	font-size:15px;
+	line-height:1.2cm;
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+label{
+	display:inline-block;
+	width:180px;
+}
+
+input[type='text']{
+	width:97%;
+	padding:4px;
+	border-radius:5px;
+	border:1px  solid;
+}
+
+input[type='number']{
+	width:50px;
+	padding:4px;
+	border-radius:5px;
+	border:1px  solid;
+}
+
+.container{
+	width:60%;
+	margin:0 auto;
+	overflow:auto;
+	background-color: #f4f4f4;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #f4f4f4;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+header{
+	padding-top: 90px;
+	border-bottom:3px  ;
+}
+
+
+
+main{
+	padding-bottom:20px;
+}
+
+a.start{
+	display:inline-block;
+	color:black;
+	background:#c2c2a3;
+	border:1px dotted #ccc;
+	padding:6px 13px;
+	border-radius: 8px;
+}
+
+input.start{
+	display:inline-block;
+	color:black;
+	background:#c2c2a3;
+	border:1px dotted #ccc;
+	padding:6px 13px;
+	border-radius: 4px;
+}
+
+.current{
+	padding:10px;
+	border-radius: 4px;
+	background:#c2c2a3;
+	color:black;
+	font-family:Verdana;
+	border:#ccc dotted 1px;
+	margin:20px 0 10px 0;
+}
+
+@media only screen and (max-width:960px){
+	.container{
+		width:80%;
+	}
+}
